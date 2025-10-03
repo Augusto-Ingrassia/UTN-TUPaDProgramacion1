@@ -1,0 +1,6 @@
+print("Escribiendo archivo productos.txt")
+archivoProducto = open("productos.txt","w")
+archivoProducto.write("Lapiz,30,200\n")
+archivoProducto.write("Goma,10,500\n")
+archivoProducto.write("Cuaderno,50,130\n")
+archivoProducto.close()
